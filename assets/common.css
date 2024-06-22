@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	background-image: url('../images/catbg.jpg');
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.audio {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+	cursor: pointer;
+}
+.portfolio-link {
+	text-align: right
+}
+.profile-image {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    margin: 0 10px;
+}
