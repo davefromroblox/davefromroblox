@@ -58,7 +58,7 @@ body {
     color: #fff;
     padding: 15px;
     box-sizing: border-box;
-    height: calc(100vh - 56px); /* Adjust height considering the topbar height */
+    height: calc(100vh - 56px);
 }
 
 .sidebar h2 {
